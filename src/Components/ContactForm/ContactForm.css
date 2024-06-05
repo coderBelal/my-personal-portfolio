@@ -28,7 +28,7 @@ body {
 }
 
 .contact-inputs {
-  width: 250px;
+  width: 400px;
   height: 50px;
   border: 1px solid #00b4ff;
   font-weight: 500;
@@ -73,7 +73,7 @@ body {
     width: 10px;
   }
   .contact-inputs {
-    width: 350px;
+    width: 250px;
   }
   .contact-right {
     display: none;
