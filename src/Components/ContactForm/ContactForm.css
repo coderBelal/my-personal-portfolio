@@ -113,7 +113,7 @@ body {
   }
 
   .contact-inputs, .contact-left textarea {
-    width: 100%;
+    width: 260px;
   }
 
   .contact-left button {
