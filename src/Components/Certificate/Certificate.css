@@ -5,7 +5,6 @@
   flex-direction: column;
   align-items: center;
   padding: 120px;
-
   margin-top: 15%;
 }
 
@@ -25,7 +24,6 @@
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   text-align: center;
 }
@@ -92,5 +90,48 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Media queries for responsiveness */
 @media (max-width: 768px) {
+  .app {
+    padding: 20px;
+    margin-top: 10%;
+  }
+
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-one {
+    width: 90%;
+  }
+
+  .card-one img {
+    width: 100%;
+    height: auto;
+  }
+
+  .card-one h3 {
+    font-size: 16px;
+  }
+
+  .card-one button {
+    padding: 8px 16px;
+    margin: 8px 0;
+  }
+
+  .modal {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .close-button {
+    padding: 5px 8px;
+  }
+
+  .popup-image {
+    max-width: 100%;
+    max-height: 80vh;
+  }
 }
+
