@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import belal from "../../assets/b.jpg";
 import "./SideBar.css";
 import { CiMenuBurger } from "react-icons/ci";
@@ -55,58 +55,40 @@ const Sidebar = () => {
         </div>
         <ul className="sidebar-menu">
           <li className="sidebar-item">
-            <a href="" className="sidebar-link">
+            <Link to={"/"} className="sidebar-link">
               <FaHome />
-              <Link to={"/"}>
-                <span>Home</span>
-              </Link>
-            </a>
+              <span>Home</span>
+            </Link>
           </li>
           <li className="sidebar-item">
-            <a href="" className="sidebar-link">
+            <Link to={"/about"} className="sidebar-link">
               <FaUser />
-              <Link to={"/about"}>
-                {" "}
-                <a href="">
-                  <span>About</span>
-                </a>
-              </Link>
-            </a>
+              <span>About</span>
+            </Link>
           </li>
           <li className="sidebar-item">
-            <a href="" className="sidebar-link">
+            <Link to={"/projects"} className="sidebar-link">
               <FaFileAlt />
-              <Link to={"/projects"}>
-                {" "}
-                <span>Projects</span>
-              </Link>
-            </a>
+              <span>Projects</span>
+            </Link>
           </li>
           <li className="sidebar-item">
-            <a href="" className="sidebar-link">
+            <Link to={"/certificate"} className="sidebar-link">
               <FaBriefcase />
-              <Link to={"/certificate"}>
-                {" "}
-                <span>Certificate</span>
-              </Link>
-            </a>
+              <span>Certificate</span>
+            </Link>
           </li>
           <li className="sidebar-item">
-            <a href="" className="sidebar-link">
+            <Link to={"/skill"} className="sidebar-link">
               <FaServicestack />
-              <Link to={"/skill"}>
-                {" "}
-                <span>Skills</span>
-              </Link>
-            </a>
+              <span>Skills</span>
+            </Link>
           </li>
           <li className="sidebar-item">
-            <a href="" className="sidebar-link">
+            <Link to={"/contact"} className="sidebar-link">
               <FaEnvelope />
-              <Link to={"/contact"}>
-                <span>Contact</span>
-              </Link>
-            </a>
+              <span>Contact</span>
+            </Link>
           </li>
         </ul>
       </div>
