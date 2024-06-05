@@ -39,7 +39,7 @@ body {
 /* Input styling */
 .contact-inputs {
   width: 100%;
-  max-width: 400px;
+  max-width: 800px;
   height: 50px;
   border: 1px solid #00b4ff;
   font-weight: 500;
