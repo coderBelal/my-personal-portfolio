@@ -66,12 +66,7 @@ body {
 .contact-right {
   width: 500px;
 }
-.footer {
-  border-top: 1px solid #00b4ff;
-}
-.footer span {
-  color: #00b4ff;
-}
+
 @media (max-width: 720px) {
   .contact-container {
     margin-left: 8%;
