@@ -28,9 +28,9 @@ const Profile = () => {
             </button>
           </a>
 
-          <a href="../../assets/resume.pdf" download="resume.pdf">
+              <a href="https://drive.google.com/file/d/1xt_K_EQowzhPe097mHutBru6RPDQEMNH/view?usp=drive_link">
             <button className="learn-more" data-aos="fade-left">
-              Download Resume
+              View CV
             </button>
           </a>
         </div>
