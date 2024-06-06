@@ -1,3 +1,4 @@
+
 import "./CardProject.css";
 import crypto from "../../assets/crypto.png";
 import spotify from "../../assets/spotify.png";
@@ -136,32 +137,6 @@ const Card = () => {
             </a>
           </div>
         </div>
-        <div className="card" data-aos="zoom-in">
-          <img
-            src="https://raw.githubusercontent.com/coderBelal/image/main/Screenshot%202024-05-16%20110710.jpg"
-            alt="Image 3"
-          />
-          <div className="card-desc">
-            <h5>Tic Tac Toe</h5>
-            <h6>
-              The game takes place on a grid of nine squares.Players take turns
-              marking the squares with either an X or an O.
-            </h6>
-          </div>
-          <div className="card-tech">
-            Technology: <p> React</p> <p> Vite</p> <p>Context Api</p>
-          </div>
-          <div className="btn">
-            <a href="https://tic-tac-toe-using-react-umber.vercel.app/">
-              {" "}
-              <button className="button live-button">Live</button>
-            </a>
-            <a href="https://github.com/coderBelal/Tic-Tac-Toe-Using-React.git">
-              {" "}
-              <button className="button github-button">GitHub</button>
-            </a>
-          </div>
-        </div>
 
         <div className="card" data-aos="zoom-in">
           <img
@@ -215,86 +190,6 @@ const Card = () => {
             <a href="https://gemini-ai-clone-nu.vercel.app/">
               {" "}
               <button className="button live-button">Live</button>
-            </a>
-          </div>
-        </div>
-
-        <div className="card" data-aos="zoom-in">
-          <img
-            src="https://raw.githubusercontent.com/coderBelal/image/main/Screenshot%202024-05-16%20110754.jpg"
-            alt="Image 1"
-          />
-          <div className="card-desc">
-            <h5>Kitty</h5>
-            <h6>
-              Are you a feline fanatic? Does the internet need more cat content?
-              Welcome to your new haven, a website dedicated to everything
-              cats!.
-            </h6>
-          </div>
-          <div className="card-tech">
-            Technology: <p> Html</p> <p> Css</p> <p>JavaScript</p>
-          </div>
-          <div className="btn">
-            <a href="https://cat-dog-one.vercel.app/">
-              {" "}
-              <button className="button live-button">Live</button>
-            </a>
-            <a href="https://github.com/coderBelal/Cat-Dog.git">
-              {" "}
-              <button className="button github-button">GitHub</button>
-            </a>
-          </div>
-        </div>
-        <div className="card" data-aos="zoom-in">
-          <img
-            src="https://raw.githubusercontent.com/coderBelal/image/main/Screenshot%202024-05-16%20110733.jpg"
-            alt="Image 1"
-          />
-          <div className="card-desc">
-            <h5>Add To Cart</h5>
-            <h6>
-              Add to Cart: This is the most basic and common approach. It
-              clearly tells users what the button does
-            </h6>
-          </div>
-          <div className="card-tech">
-            Technology: <p> React</p> <p> Vite</p> <p>Context Api</p>
-          </div>
-          <div className="btn">
-            <a href="https://add-to-cart-1.vercel.app/">
-              <button className="button live-button">Live</button>
-            </a>
-            <a href="https://github.com/coderBelal/add-to-cart.git">
-              {" "}
-              <button className="button github-button">GitHub</button>
-            </a>
-          </div>
-        </div>
-        <div className="card" data-aos="zoom-in">
-          <img
-            src="https://raw.githubusercontent.com/coderBelal/image/main/Screenshot%202024-05-16%20110820.jpg"
-            alt="Image 1"
-          />
-          <div className="card-desc">
-            <h5>Guess The Word</h5>
-            <h6>
-              {" "}
-              Guess the Word is a fun and engaging game that will challenge your
-              vocabulary and sharpen your wit. Heres what awaits you
-            </h6>
-          </div>
-          <div className="card-tech">
-            Technology: <p> HTML</p> <p> CSS</p> <p>JavaScript</p>
-          </div>
-          <div className="btn">
-            <a href="https://guess-the-word-zxba.vercel.app/">
-              {" "}
-              <button className="button live-button">Live</button>
-            </a>
-            <a href="https://github.com/coderBelal/guess_The_Word.git">
-              {" "}
-              <button className="button github-button">GitHub</button>
             </a>
           </div>
         </div>
