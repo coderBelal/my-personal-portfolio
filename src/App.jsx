@@ -7,16 +7,16 @@ import Skill from "./Components/Skill/Skill";
 import ContactForm from "./Components/ContactForm/ContactForm";
 import Certificate from "./Components/Certificate/Certificate";
 import Loading from "./Loading";
-// import AOS from "aos";
-// import "aos/dist/aos.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { useEffect, useState } from "react";
 
-// const App = () => {
-//   useEffect(() => {
-//     AOS.init({
-//       duration: 1200,
-//     });
-//   }, []);
+const App = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1200,
+    });
+  }, []);
   const [loading, setLoading] = useState(false);
   const location = useLocation();
 
